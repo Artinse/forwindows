@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html class="page" lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/main.css">
+    <title>Ресторан "Вкусняшки"</title>
+</head>
+
+<body class="page-body">
+    <header class="page-header">
+        <div class="container">
+            <nav class="site-navigation">
+                <img src="./images/LOGO.svg" alt="Logo">
+                <ul class="site-list">
+                    <li class="site-item"> <a href="#" class="site-link">Главная</a></li>
+                    <li class="site-item"> <a href="#" class="site-link">О нас</a></li>
+                    <li class="site-item"> <a href="#" class="site-link">Меню</a></li>
+                    <li class="site-item"> <a href="#" class="site-link">Где нас найти?</a></li>
+                </ul>
+                <div class="user-list">
+                    <span class="user-item"> <button href="#" class="user-link modalAuthBtn">Вход</button></span>
+                    <span class="user-item modalRegBtn"> <button href="#" class="user-link">Регистрация</button></span>
+                </div>
+                <div class="basket">Корзина</div>
+            </nav>
+
+        </div>
+    </header>
+    <main class="page-main">
+        <div class="container">
+            <section class="main">
+                <h1 class="page-main-title">
+                    Добро пожаловать в
+                    Наш ресторан
+                    <span>ДОМ ЛУЧШЕЙ ЕДЫ</span>
+                </h1>
+                <button class="menu-btn">Посмотреть меню</button>
+                <ul class="main-list">
+                    <li class="main-item">
+                        <h3 class="main-item-title">Магическая <span>атмфосфера</span></h3>
+                        <p class="main-item-descr"></p>
+                    </li>
+                    <li class="main-item">
+                        <h3 class="main-item-title">Магическая <span>атмфосфера</span></h3>
+                        <p class="main-item-descr"></p>
+                    </li>
+                    <li class="main-item">
+                        <h3 class="main-item-title">Магическая <span>атмфосфера</span></h3>
+                        <p class="main-item-descr"></p>
+                    </li>
+                </ul>
+            </section>
+        </div>
+        <section class="about">
+            <div class="container">
+                <img src="./images/LOGO.svg" alt="logo">
+                <span class="about-slogan">Все возможно в ресторане Вкусняшки.</span>
+                <div class="lastDishes">
+                    <ul class="lastDishes-list slider">
+                        <li class="lastDishes-item slider-item">
+                            <img src="./images/index.jpg    " alt="">
+                            <span class="lastDishes-name">Креветки</span>
+                        </li>
+                        <li class="lastDishes-item">
+                            <img src="./images/index.jpg    " alt="">
+                            <span class="lastDishes-name">Креветки</span>
+                        </li>
+                        <li class="lastDishes-item">
+                            <img src="./images/index.jpg    " alt="">
+                            <span class="lastDishes-name">Креветки</span>
+                        </li>
+                        <li class="lastDishes-item">
+                            <img src="./images/index.jpg    " alt="">
+                            <span class="lastDishes-name">Креветки</span>
+                        </li>
+                        <li class="lastDishes-item">
+                            <img src="./images/index.jpg    " alt="">
+                            <span class="lastDishes-name">Креветки</span>
+                        </li>
+                    </ul>
+                    <div class="slider-dots">
+                        <button>prev</button><button>next</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="menu">
+            <h2 class="menu-title">Наше меню</h2>
+            <ul class="menu-list">
+                <li></li>
+                <li></li>
+                <li></li>
+            </ul>
+        </section>
+    </main>
+    <div class="page-footer"></div>
+    <div class="modal-overlay"></div>
+    <div class="modal-reg modal">
+        <form class="reg-form">
+            <label>
+                Имя
+                <input type="text">
+            </label>
+            <label>
+                Подимя
+                <input type="text">
+            </label>
+            <label>
+                Логин
+                <input type="text">
+            </label>
+            <label>
+                Емайл
+                <input type="email">
+            </label>
+            <label>
+                Пароль<input type="password"></label>
+            <label>
+                Повтор Пароля
+                <input type="text" class="password-repeat">
+            </label>
+            <label>
+                Согласие на обработку данных
+                <input type="checkbox">
+            </label>
+            <button class="modal-btn modalRegBtn" type="submit">Отправить</button>
+        </form>
+        <div class="modal-close">X</div>
+    </div>
+    <div class="modal-auth modal">
+        <form class="modal-auth">
+            <label>
+                Логин
+                <input type="text">
+            </label>
+            <label>Пароль</label>
+            <button type="submit" class="modal-btn "></button>
+        </form>
+    </div>
+    <script src='scripts/js.js'></script>
+</body>
+
+</html>
